@@ -8,13 +8,9 @@
       
       
       
-        <link rel="canonical" href="https://elias-code-prog.github.io/pythoncourses/projets/blog/">
+        <link rel="canonical" href="https://elias-code-prog.github.io/pythoncourses/projets/drf_cons/">
       
       
-        <link rel="prev" href="../../django/auth/">
-      
-      
-        <link rel="next" href="../drf/">
       
       
         
@@ -25,7 +21,7 @@
     
     
       
-        <title>Blog Personnel - Apprendre Python & Django</title>
+        <title>Drf cons - Apprendre Python & Django</title>
       
     
     
@@ -66,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#projet-creation-dun-blog-avec-django" class="md-skip">
+        <a href="#consommer-lapi-avec-un-script-python" class="md-skip">
           Aller au contenu
         </a>
       
@@ -102,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Blog Personnel
+              Drf cons
             
           </span>
         </div>
@@ -1082,20 +1078,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -1116,7 +1110,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1131,37 +1125,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Blog Personnel
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../blog/" class="md-nav__link">
         
   
   
@@ -1177,120 +1144,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#etape-1-initialisation-du-projet" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Étape 1 : Initialisation du projet
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#etape-2-le-modele-la-base-de-donnees" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Étape 2 : Le Modèle (La Base de Données)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#etape-3-linterface-admin" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Étape 3 : L'Interface Admin
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#etape-4-les-urls-laiguillage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Étape 4 : Les URLs (L'Aiguillage)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#etape-5-la-vue-la-logique" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Étape 5 : La Vue (La Logique)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#etape-6-le-template-laffichage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Étape 6 : Le Template (L'Affichage)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#etape-7-design-et-mise-en-page-heritage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Étape 7 : Design et Mise en page (Héritage)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Étape 7 : Design et Mise en page (Héritage)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#a-retenir" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        A retenir
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1413,10 +1266,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#etape-1-initialisation-du-projet" class="md-nav__link">
+  <a href="#1-installation-de-la-bibliotheque-requests" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Étape 1 : Initialisation du projet
+        1. Installation de la bibliothèque requests
       
     </span>
   </a>
@@ -1424,10 +1277,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#etape-2-le-modele-la-base-de-donnees" class="md-nav__link">
+  <a href="#2-le-script-client-clientpy" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Étape 2 : Le Modèle (La Base de Données)
+        2. Le script client (client.py)
       
     </span>
   </a>
@@ -1435,10 +1288,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#etape-3-linterface-admin" class="md-nav__link">
+  <a href="#3-pourquoi-est-ce-une-etape-importante" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Étape 3 : L'Interface Admin
+        3. Pourquoi est-ce une étape importante ?
       
     </span>
   </a>
@@ -1446,63 +1299,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#etape-4-les-urls-laiguillage" class="md-nav__link">
+  <a href="#mini-tp" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Étape 4 : Les URLs (L'Aiguillage)
+        Mini-TP
       
     </span>
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#etape-5-la-vue-la-logique" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Étape 5 : La Vue (La Logique)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#etape-6-le-template-laffichage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Étape 6 : Le Template (L'Affichage)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#etape-7-design-et-mise-en-page-heritage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Étape 7 : Design et Mise en page (Héritage)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Étape 7 : Design et Mise en page (Héritage)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#a-retenir" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        A retenir
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1523,117 +1326,60 @@
 
 
 
-<h1 id="projet-creation-dun-blog-avec-django">Projet : Création d'un Blog avec Django</h1>
-<h2 id="etape-1-initialisation-du-projet">Étape 1 : Initialisation du projet</h2>
-<p>On commence par créer l'environnement et la structure de base.</p>
-<pre><code class="language-bash"># Créer et activer l'environnement virtuel
-# Mac/Linux
-python3 -m venv .venv
-source .venv/bin/activate  
-#Windows
-python -m venv .venv
-     ./venv/Scripts/Activate.Ps1
-
-# Installer Django et créer le projet
-#Windows
-pip install django
-django-admin startproject mysite .
-python manage.py startapp blog
-
-# Mac/Linux
-pip3 install django
-django-admin startproject mysite .
-python3 manage.py startapp blog
+<p>Voici comment montrer concrètement à vos étudiants que leur API fonctionne et peut être utilisée par n'importe quelle autre application (un site en React, une appli mobile ou un simple script).</p>
+<h1 id="consommer-lapi-avec-un-script-python">Consommer l'API avec un script Python</h1>
+<p>Pour cette étape, nous allons sortir de l'univers Django. Nous allons créer un petit script indépendant qui va "parler" à notre API pour récupérer les articles.</p>
+<h3 id="1-installation-de-la-bibliotheque-requests">1. Installation de la bibliothèque <code>requests</code></h3>
+<p>C'est l'outil standard pour envoyer des requêtes HTTP en Python.</p>
+<pre><code class="language-bash">#Windows
+pip install requests
+#Mac
+pip3 install requests
 
 </code></pre>
-<p><em>N'oubliez pas d'ajouter <code>'blog',</code> dans la liste <code>INSTALLED_APPS</code> du fichier <code>settings.py</code>.</em></p>
-<h2 id="etape-2-le-modele-la-base-de-donnees">Étape 2 : Le Modèle (La Base de Données)</h2>
-<p>Un article de blog (Post) a besoin de plusieurs caractéristiques. Dans <code>blog/models.py</code> :</p>
-<pre><code class="language-python">from django.db import models
-from django.utils import timezone
+<h3 id="2-le-script-client-clientpy">2. Le script client (<code>client.py</code>)</h3>
+<p>Créer ce fichier n'importe où sur votre ordinateur (en dehors du dossier Django) :</p>
+<pre><code class="language-python">import requests
 
-class Post(models.Model):
-    titre = models.CharField(max_length=200)
-    contenu = models.TextField()
-    date_publication = models.DateTimeField(default=timezone.now)
-    auteur = models.ForeignKey('auth.User', on_delete=models.CASCADE)
+# L'URL de votre API locale
+URL = &quot;http://127.0.0.1:8000/api/posts/&quot;
 
-    def __str__(self):
-        return self.titre
+def recuperer_articles():
+    try:
+        # Envoi d'une requête GET
+        response = requests.get(URL)
+
+        # Vérification si la requête a réussi (Code 200)
+        if response.status_code == 200:
+            articles = response.json() # On transforme le JSON en liste Python
+
+            print(f&quot;--- Liste des {len(articles)} articles du Blog ---&quot;)
+            for post in articles:
+                print(f&quot;Titre : {post['titre']}&quot;)
+                print(f&quot;Auteur : {post['auteur']}&quot;)
+                print(&quot;-&quot; * 30)
+        else:
+            print(f&quot;Erreur : {response.status_code}&quot;)
+
+    except requests.exceptions.ConnectionError:
+        print(&quot;Erreur : Le serveur Django n'est pas lancé !&quot;)
+
+if __name__ == &quot;__main__&quot;:
+    recuperer_articles()
 
 </code></pre>
-<p><strong>Action :</strong> Créez les tables avec <code>python manage.py makemigrations</code> puis <code>python manage.py migrate</code>.</p>
-<h2 id="etape-3-linterface-admin">Étape 3 : L'Interface Admin</h2>
-<p>Pour créer des articles sans coder de formulaire tout de suite, utilisez l'outil intégré de Django.
-Dans <code>blog/admin.py</code> :</p>
-<pre><code class="language-python">from django.contrib import admin
-from .models import Post
-
-admin.site.register(Post)
-
-</code></pre>
-<p><em>Créez un compte administrateur avec <code>python manage.py createsuperuser</code> pour tester.</em></p>
-<h2 id="etape-4-les-urls-laiguillage">Étape 4 : Les URLs (L'Aiguillage)</h2>
-<p>Il faut dire à Django quelle page afficher selon l'adresse demandée.</p>
+<h3 id="3-pourquoi-est-ce-une-etape-importante">3. Pourquoi est-ce une étape importante ?</h3>
 <ol>
-<li>**Dans <code>mysite/urls.py**</code> : Redirigez vers l'application blog.</li>
+<li><strong>Découplage</strong> : Le "Front-end" (le script) est totalement séparé du "Back-end" (Django).</li>
+<li><strong>Multi-plateforme</strong> : On pourrait remplacer ce script Python par du JavaScript (pour un site web) ou du Swift (pour une application iPhone), l'API Django resterait la même.</li>
+<li><strong>Automatisation</strong> : On peut imaginer un script qui poste automatiquement un article chaque matin.</li>
 </ol>
-<pre><code class="language-python">path('', include('blog.urls')),
-
-</code></pre>
-<ol>
-<li>**Dans <code>blog/urls.py**</code> (à créer) :</li>
-</ol>
-<pre><code class="language-python">from django.urls import path
-from . import views
-
-urlpatterns = [
-    path('', views.post_list, name='post_list'),
-    path('post/&lt;int:pk&gt;/', views.post_detail, name='post_detail'),
-]
-
-</code></pre>
-<h2 id="etape-5-la-vue-la-logique">Étape 5 : La Vue (La Logique)</h2>
-<p>La vue va chercher les articles dans la base de données et les envoie au template.
-Dans <code>blog/views.py</code> :</p>
-<pre><code class="language-python">from django.shortcuts import render, get_object_or_404
-from .models import Post
-
-def post_list(request):
-    posts = Post.objects.all().order_by('-date_publication')
-    return render(request, 'blog/post_list.html', {'posts': posts})
-
-def post_detail(request, pk):
-    post = get_object_or_404(Post, pk=pk)
-    return render(request, 'blog/post_detail.html', {'post': post})
-
-</code></pre>
-<h2 id="etape-6-le-template-laffichage">Étape 6 : Le Template (L'Affichage)</h2>
-<p>Créez un dossier <code>blog/templates/blog/</code> et un fichier <code>post_list.html</code>.</p>
-<pre><code class="language-html">&lt;h1&gt;Mon Super Blog&lt;/h1&gt;
-{% for post in posts %}
-    &lt;article&gt;
-        &lt;h2&gt;&lt;a href=&quot;{% url 'post_detail' pk=post.pk %}&quot;&gt;{{ post.titre }}&lt;/a&gt;&lt;/h2&gt;
-        &lt;p&gt;Publié le : {{ post.date_publication }} par {{ post.auteur }}&lt;/p&gt;
-        &lt;p&gt;{{ post.contenu|truncatechars:100 }}&lt;/p&gt;
-    &lt;/article&gt;
-    &lt;hr&gt;
-{% endfor %}
-
-</code></pre>
-<h2 id="etape-7-design-et-mise-en-page-heritage">Étape 7 : Design et Mise en page (Héritage)</h2>
-<p>le principe <strong>DRY</strong> avec un fichier <code>base.html</code>.</p>
-<ul>
-<li><code>base.html</code> contient la structure (Navbar, Footer).</li>
-<li>Les autres pages utilisent <code>{% extends 'blog/base.html' %}</code> pour s'y insérer.</li>
-</ul>
-<h3 id="a-retenir">A retenir</h3>
-<ol>
-<li><strong>Migration</strong> : Transformer du code Python en table SQL.</li>
-<li><strong>ORM</strong> : Récupérer des données (<code>Post.objects.all()</code>).</li>
-<li><strong>Routing</strong> : Créer des URLs dynamiques avec des ID (<code>&lt;int:pk&gt;</code>).</li>
-<li><strong>Templating</strong> : Afficher des données avec des boucles Jinja2.</li>
-</ol>
+<hr />
+<h3 id="mini-tp">Mini-TP</h3>
+<p>Modifier le script pour envoyer un nouvel article en utilisant <code>requests.post()</code>.</p>
+<blockquote>
+<p><strong>Indice :</strong> Il faudra envoyer un dictionnaire <code>data = {"titre": "...", "contenu": "..."}</code> et utiliser <code>requests.post(URL, data=data)</code>.</p>
+</blockquote>
 
 
 
