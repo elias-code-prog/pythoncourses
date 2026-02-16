@@ -1624,7 +1624,6 @@ def creer_article(request):
 </code></pre>
 <h3 id="a-retenir">A retenir</h3>
 <p><code>form.is_valid()</code> ne vérifie pas seulement si les champs sont remplis, elle vérifie aussi le <strong>type</strong>. Si un étudiant tape "Bonjour" dans un <code>EmailField</code>, <code>is_valid()</code> renverra <code>False</code> et Django générera automatiquement un message d'erreur en rouge sans que vous ayez à coder quoi que ce soit.</p>
-<hr />
 <h3 id="mini-tp-le-livre-dor">Mini-TP : "Le Livre d'Or"</h3>
 <ol>
 <li>Créez un modèle <code>Message</code> (nom, contenu, date).</li>

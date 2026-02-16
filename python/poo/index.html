@@ -807,6 +807,67 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#a-retenir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Retenir :
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#le-role-de-self" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Le rôle de self
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Le rôle de self">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-quoi-sert-str" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        À quoi sert str() ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pourquoi-lutiliser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pourquoi l'utiliser ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resume-de-la-difference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Résumé de la différence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#mini-tp" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1582,6 +1643,67 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#a-retenir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Retenir :
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#le-role-de-self" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Le rôle de self
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Le rôle de self">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-quoi-sert-str" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        À quoi sert str() ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pourquoi-lutiliser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pourquoi l'utiliser ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resume-de-la-difference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Résumé de la différence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#mini-tp" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1666,7 +1788,23 @@ mon_chat.manger() # Il peut manger car il hérite de la classe Animal
 
 </code></pre>
 <p>Ici, notre classe <code>Article</code> <strong>hérite</strong> de toutes les fonctionnalités magiques de Django (<code>models.Model</code>). Sans la POO, Django serait impossible à utiliser.</p>
-<hr />
+<h3 id="a-retenir">A Retenir :</h3>
+<p><strong>init</strong> est sans doute la méthode la plus importante en POO Python : c'est le constructeur.
+À quoi sert <strong>init</strong>() ?
+La méthode <strong>init</strong> est appelée automatiquement au moment où vous créez une nouvelle instance (un objet) d'une classe. Son rôle principal est d'initialiser les attributs de l'objet, c'est-à-dire de lui donner ses caractéristiques de départ.</p>
+<h3 id="le-role-de-self">Le rôle de self</h3>
+<p>Dans <strong>init</strong>(self, ...), le mot-clé self représente l'objet qui est en train d'être créé. Il permet de lier les arguments reçus aux variables internes de l'objet.</p>
+<h4 id="a-quoi-sert-str">À quoi sert <strong>str</strong>() ?</h4>
+<p>En Programmation Orientée Objet (POO), la méthode <strong>str</strong> est une méthode spéciale (ou "dander method") qui définit comment un objet doit être représenté sous forme de chaîne de caractères lisible.</p>
+<h4 id="pourquoi-lutiliser">Pourquoi l'utiliser ?</h4>
+<p>Par défaut, si vous créez une classe et que vous essayez d'afficher un objet avec print(), Python affiche quelque chose d'assez cryptique comme :</p>
+<pre><code class="language-python">&lt;__main__.Voiture object at 0x7f8b1c1d3e50&gt;
+</code></pre>
+<p>C'est l'adresse mémoire de l'objet, ce qui n'est pas très utile pour débugger ou pour l'utilisateur. <strong>str</strong> permet de remplacer ce message par une description claire.</p>
+<h3 id="resume-de-la-difference">Résumé de la différence</h3>
+<p><strong>init</strong> : C'est la naissance de l'objet (on définit qui il est).</p>
+<p><strong>str</strong> : C'est la présentation de l'objet (on définit comment il parle de lui).</p>
+<p><strong>repr</strong> :C'est est plutôt destinée aux développeurs pour le débuggage technique.</p>
 <h3 id="mini-tp">Mini-TP</h3>
 <p>Créer une classe <code>Personnage</code> avec :</p>
 <ol>
